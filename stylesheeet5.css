@@ -1,0 +1,51 @@
+.sidebyside {
+    display: flex;
+    
+}
+.sidebyside img {
+  height: 400px;
+  width:  400px;
+  border-radius: 7px;
+}
+.sidebyside div{
+    margin: 10px;
+}
+header {
+    text-align: center;
+    color: rgb(110, 88, 131);
+    background-color: rgb(199, 176, 223);
+}
+body{
+    background-color: rgb(187, 155, 182);
+    font-family:"Dancing Script";
+}
+.teqstebicxrili {
+    display: flex;
+}
+table {
+    border-collapse: collapse;
+    border: 2px dashed rgb(148, 9, 55);
+    background-color: rgb(136, 12, 109);
+}
+ th {
+    background-color: rgb(187, 122, 160);
+    color: beige;
+    border: 1px dashed pink;
+    padding:10px
+ }
+ td{
+    background-color: rgb(235, 114, 184);
+    color: beige;
+    border: 1px dashed pink;
+    padding:10px
+ }
+ p {
+    background-color: rgb(194, 161, 224);
+    padding: auto;
+    border-radius: 7px;
+ }
+ input {
+    background-color: rgb(180, 161, 197);
+    color: beige;
+    text-align: center;
+ }

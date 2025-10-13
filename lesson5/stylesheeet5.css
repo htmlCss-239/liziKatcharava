@@ -23,7 +23,7 @@ body{
     display: flex;
 }
 table {
-    border-collapse: collapse;
+    
     border: 2px dashed rgb(148, 9, 55);
     background-color: rgb(136, 12, 109);
 }
@@ -43,6 +43,7 @@ table {
     background-color: rgb(194, 161, 224);
     padding: auto;
     border-radius: 7px;
+    font-size: 20px;
  }
  input {
     background-color: rgb(180, 161, 197);

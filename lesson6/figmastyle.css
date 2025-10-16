@@ -1,0 +1,66 @@
+
+.headerimg {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+ nav a {
+    color: black;
+    margin-top: 20px;
+    font-size: 24px;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 5px;
+ }
+ #text {
+    text-align: center;
+    font-size: 64px;
+ }
+ 
+ .fotoebi {
+    display: flex;
+    justify-content: center;
+     gap: 70px;
+}
+.fotoebi img {
+  
+  width: 200;
+height: 150;
+border-left: dotted;
+border-left-width: 10px;
+}
+#maintext  {
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: 400;
+  
+}
+#highlight {
+color: blue;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: 0%;
+
+}
+footer {
+    background-color: black;
+    padding: 20px;
+}
+footer input {
+    display: block;
+    background-color: white;
+    border: none;
+    box-sizing: border-box;
+    width: 99%;
+    padding: 15px;
+    margin: 10px auto;
+    
+}

@@ -9,6 +9,7 @@ nav {
     gap: 200px;
 }
  nav a {
+    font-family: "Roboto", sans-serif;
     color: black;
     margin-top: 20px;
     font-size: 24px;
@@ -37,6 +38,7 @@ border-left-width: 10px;
   border: 2px solid black;
   border-radius: 10px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   
 }
 #highlight {
@@ -48,6 +50,7 @@ letter-spacing: 0%;
 text-decoration: underline;
 text-decoration-style: solid;
 text-decoration-thickness: 0%;
+font-family: "Roboto", sans-serif;
 
 }
 footer {
@@ -62,5 +65,5 @@ footer input {
     width: 99%;
     padding: 15px;
     margin: 10px auto;
-    
+    font-family: "Roboto",sans-serif;
 }

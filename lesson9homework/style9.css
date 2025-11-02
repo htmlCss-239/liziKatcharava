@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-image {
+    overflow: hidden;
+    width: 100%;
+
+}
+.header-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 15px;
+}
+body {
+    font-family: Arial;
+    background-color: #f6efe7;
+
+}
+header {
+    display: block;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.zedamenu {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo h1 {
+    font-size: 30px;
+    color: #4a3c2f;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #6b604f;
+}
+.navi {
+    display: flex;
+    gap: 10px;
+}
+.navi a {
+     text-decoration: none;
+    color: #e5d2e7;
+    font-weight: 700;
+    margin: 30px; 
+    background: #801055;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.navi a:hover {
+    background: #751075;
+    transform: translateY(-3px);
+}
+
+.tbilisi {
+    text-align: center;
+    padding: 60px;
+}
+
+.tbilisi h2 {
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.animated-box {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.run {
+    display: inline-block;
+    white-space: nowrap;
+    animation: runner 12s linear infinite;
+    font-weight: bold;
+    color: #b64d2b;
+}
+
+@keyframes runner {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+
+.block {
+    background: white;
+    margin: 35px auto;
+    max-width: 850px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    border-left: 5px solid #b64d2b;
+}
+
+.block.alt {
+    background: #ece1d6;
+    border-left: 5px solid #855e42;
+}
+
+
+
+footer {
+    background: #4a3c2f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer-col h3 {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}

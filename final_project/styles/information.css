@@ -1,0 +1,241 @@
+
+.blog-info {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.blog-info h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #5e2bb8;
+}
+
+.blog-info h2 {
+    margin-top: 35px;
+    color: #4a1e96;
+}
+
+.blog-info h3 {
+    margin-top: 25px;
+    color: #6a34c3;
+}
+
+.point {
+    margin: 10px 0 20px 0;
+    padding: 12px 16px;
+    background: #f5f2ff;
+    border-left: 4px solid #6a34c3;
+    border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+
+  .site-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 15px 10px;
+  }
+
+  .site-header img {
+    width: 50%;
+    max-width: 150px;
+  }
+
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .nav-item {
+    font-size: 14px;
+    padding: 5px 0;
+  }
+
+  .dropdown-content {
+    position: static;
+    min-width: 100%;
+    background: #6a34c3;
+    border-radius: 6px;
+  }
+
+  .dropdown-content a {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .dropdown-sub-content {
+    position: static;
+    min-width: 100%;
+    background: #8a5ee8;
+  }
+
+  
+  
+.social-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 5px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    padding: 5px 0;
+    background: rgba(0,0,0,0.2);
+  }
+
+  .social-bar a {
+    width: auto;
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+
+  .social-bar a span {
+    display: none;
+  }
+  .blog-info {
+    width: 95%;
+    padding: 20px 10px;
+    margin: 20px auto;
+  }
+
+  .blog-info h1 {
+    font-size: 24px;
+  }
+
+  .blog-info h2 {
+    font-size: 20px;
+  }
+
+  .blog-info h3 {
+    font-size: 18px;
+  }
+
+  .point {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .footer-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+
+  .footer-links, 
+  .footer-contact, 
+  .footer-social {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .site-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+  }
+
+  .site-header img {
+    width: 40%;
+    max-width: 175px;
+  }
+
+  .nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 15px;
+  }
+
+  .nav-item {
+    font-size: 15px;
+    padding: 8px 0;
+  }
+
+  .dropdown-content {
+    min-width: 180px;
+  }
+
+  .dropdown-sub-content {
+    min-width: 180px;
+  }
+
+
+  .blog-info {
+    width: 90%;
+    padding: 30px 15px;
+    margin: 30px auto;
+  }
+
+  .blog-info h1 {
+    font-size: 28px;
+  }
+
+  .blog-info h2 {
+    font-size: 22px;
+  }
+
+  .blog-info h3 {
+    font-size: 20px;
+  }
+
+  .point {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+
+  .footer-top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+
+  .footer-links, 
+  .footer-contact, 
+  .footer-social {
+    width: auto;
+    min-width: 200px;
+  }
+}
